@@ -351,3 +351,128 @@ h1, h2, h3, h4, h5, h6{
 		background-size: cover;
 	}
 }
+
+
+
+@keyframes warn {
+0% {
+transform: scale(0.3);
+-webkit-transform: scale(0.3);
+opacity: 0.0;
+}
+25% {
+transform: scale(0.3);
+-webkit-transform: scale(0.3);
+opacity: 0.1;
+}
+50% {
+transform: scale(0.5);
+-webkit-transform: scale(0.5);
+opacity: 0.3;
+}
+75% {
+transform: scale(0.8);
+-webkit-transform: scale(0.8);
+opacity: 0.5;
+}
+100% {
+transform: scale(1);
+-webkit-transform: scale(1);
+opacity: 0.0;
+}
+}
+@keyframes warn1 {
+0% {
+transform: scale(0.3);
+-webkit-transform: scale(0.3);
+opacity: 0.0;
+}
+25% {
+transform: scale(0.3);
+-webkit-transform: scale(0.3);
+opacity: 0.1;
+}
+50% {
+transform: scale(0.3);
+-webkit-transform: scale(0.3);
+opacity: 0.3;
+}
+75% {
+transform: scale(0.5);
+-webkit-transform: scale(0.5);
+opacity: 0.5;
+}
+100% {
+transform: scale(0.8);
+-webkit-transform: scale(0.8);
+opacity: 0.0;
+}
+}
+#header .slogan .container {
+position: relative;
+width: 120px;
+height: 20px;
+left: 10px;
+top: 10px;
+}
+/* point */
+.dot {
+position: absolute;
+width: 17px;
+height: 17px;
+left: 34px;
+top: 34px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid #33ccff;
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); /* 脢碌脨脛脭虏 拢卢脠莽鹿没脙禄脫脨脮芒赂枚戮脥脢脟脪禄赂枚脨隆脭虏脠娄 */
+z-index: 2;
+
+background:rgb(255,11,0,0.3); /* 脪禄脨漏虏禄脰搂鲁脰卤鲁戮掳陆楼卤盲碌脛盲炉脌脌脝梅 */  
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 10px;
+top: 10px;
+border: 1px solid #3399ff;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 2s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 2s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
+/* circle2 */
+.pulse1 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 10px;
+top: 10px;
+border: 1px solid #3399ff;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn1 2s ease-out;
+-moz-animation: warn1 2s ease-out;
+animation: warn1 2s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
