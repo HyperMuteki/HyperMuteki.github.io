@@ -426,10 +426,10 @@ top: 34px;
 -moz-border-radius: 50%;
 border: 0px solid #33ccff;
 border-radius: 50%; 
-background-color:rgba(111,152,50,0.3); /* 脢碌脨脛脭虏 拢卢脠莽鹿没脙禄脫脨脮芒赂枚戮脥脢脟脪禄赂枚脨隆脭虏脠娄 */
+background-color:rgba(111,152,50,0.3); 
 z-index: 2;
 
-background:rgb(255,11,0,0.3); /* 脪禄脨漏虏禄脰搂鲁脰卤鲁戮掳陆楼卤盲碌脛盲炉脌脌脝梅 */  
+background:rgb(255,11,0,0.3);  
     background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
     background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
     background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
@@ -441,7 +441,7 @@ width: 65px;
 height: 65px;
 left: 10px;
 top: 10px;
-border: 1px solid #3399ff;
+border: 1px solid rgb(255,111,0,0.5);
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 border-radius: 50%;
@@ -462,7 +462,7 @@ width: 65px;
 height: 65px;
 left: 10px;
 top: 10px;
-border: 1px solid #3399ff;
+border: 1px solid rgb(255,0,0,0.5);
 -webkit-border-radius: 50%;
 -moz-border-radius: 50%;
 border-radius: 50%;
@@ -471,6 +471,383 @@ opacity: 0;
 -webkit-animation: warn1 2s ease-out;
 -moz-animation: warn1 2s ease-out;
 animation: warn1 2s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
+
+
+
+
+
+.dot2 {
+position: absolute;
+width: 17px;
+height: 17px;
+left: 74px;
+top: 64px; 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid #33ccff;
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); 
+z-index: 2;
+
+background:rgb(255,11,0,0.3);  
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse2 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 70px;
+top: 60px;
+border: 30px solid rgb(255,105,180);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 4s ease-out;
+-moz-animation: warn 4s ease-out;
+animation: warn 4s ease-out;-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
+}
+/* circle2 */
+.pulse21 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 50px;
+top: 40px;
+border: 1px solid rgb(255,0,0,0.5);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 3s ease-out;
+-moz-animation: warn 3s ease-out;
+animation: warn 3s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
+
+
+.dot3 {
+position: absolute;
+width: 17px;
+height: 17px;
+left: 104px;
+top: 270px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid rgb(210,105,30,0.2)
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); 
+z-index: 2;
+
+background:rgb(255,11,0,0.3);  
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse3 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 80px;
+top: 245px; 
+border: 30px solid rgb(210,105,30); 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 1s ease-out;
+-moz-animation: warn 3s ease-out;
+animation: warn 2s ease-out;-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
+}
+/* circle2 */
+.pulse31 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 80px;
+top: 245px;
+border: 1px solid rgb(255,0,0,0.5);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 1s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 3s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
+
+
+
+.dot4 {
+position: absolute;
+width: 17px;
+height: 17px;
+left: -68px;
+top: 180px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid rgb(210,105,30,0.2)
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); 
+z-index: 2;
+
+background:rgb(255,11,0,0.3);  
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse4 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: -92px;
+top: 155px; 
+border: 30px solid rgb(238,130,238); 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 1s ease-out;
+-moz-animation: warn 3s ease-out;
+animation: warn 2s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
+}
+/* circle2 */
+.pulse41 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: -102px;
+top: 145px;
+border: 1px solid rgb(238,130,238,0.3);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 3s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 1s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
+
+
+
+.dot5 {
+position: absolute;
+width: 17px;
+height: 17px;
+left: -5px;
+top: 96px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid rgb(210,105,30,0.2)
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); 
+z-index: 2;
+
+background:rgb(255,11,0,0.3);  
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse5 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: -33px;
+top: 71px; 
+border: 30px solid rgb(65,105,225); 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 2s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 3s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
+}
+/* circle2 */
+.pulse51 {
+position: absolute;
+width: 75px;
+height: 75px;
+left: -13px;
+top: 91px;
+border: 1px solid rgb(65,105,225);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 2s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 4s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px rgb(65,105,225); /* shadow */
+}
+
+
+
+
+
+.dot6 {
+position: absolute;
+width: 17px;
+height: 17px;
+left: 134px;
+top: 124px; 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid #33ccff;
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); 
+z-index: 2;
+
+background:rgb(255,11,0,0.3);   
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse6 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 130px;
+top: 120px;
+border: 30px solid rgb(65,105,225);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 1s ease-out;
+-moz-animation: warn 3s ease-out;
+animation: warn 2s ease-out;-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
+}
+/* circle2 */
+.pulse61 {
+position: absolute;
+width: 65px;
+height: 65px;
+left: 110px;
+top: 100px;
+border: 4px solid rgb(25,25,112,0.5);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 2s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 2s ease-out;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px #3399ff; /* shadow */
+}
+
+
+
+.dot7 {
+position: absolute;
+width: 17px;
+height: 17px;
+left: 64px;
+top: 174px;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border: 0px solid #33ccff;
+border-radius: 50%; 
+background-color:rgba(111,152,50,0.3); 
+z-index: 2;
+
+background:rgb(255,11,0,0.3); 
+    background:-moz-linear-gradient(top,rgb(255,11,0,0.3), rgba(225, 225, 225, 0.1));  
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgb(255,11,0,0.3)), to(rgba(225, 225, 225, 0.1)));  
+    background:-o-linear-gradient(top, rgb(255,11,0,0.3), rgba(225, 225, 0, 0.1)); 
+}
+/* circle1 */
+.pulse7 {
+position: absolute;
+width: 45px;
+height: 45px;
+left: 40px;
+top: 150px; 
+border: 20px solid rgb(127,255,212); 
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 1s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 2s ease-out;-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
+}
+/* circle2 */
+.pulse71 {
+position: absolute;
+width: 45px;
+height: 45px;
+left: 40px;
+top: 150px;
+border: 1px solid rgb(255,0,0,0.5);
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+border-radius: 50%;
+z-index: 1;
+opacity: 0;
+-webkit-animation: warn 1s ease-out;
+-moz-animation: warn 2s ease-out;
+animation: warn 3s ease-out;
 -webkit-animation-iteration-count: infinite;
 -moz-animation-iteration-count: infinite;
 animation-iteration-count: infinite;
