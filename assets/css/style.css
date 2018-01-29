@@ -826,7 +826,7 @@ border-radius: 50%;
 z-index: 1;
 opacity: 0;
 -webkit-animation: warn 2s ease-out;
--moz-animation: warn 2s ease-out;
+-moz-animation: warn 3s ease-out;
 animation: warn 2s ease-out;-webkit-animation-iteration-count: infinite;
 -moz-animation-iteration-count: infinite;
 animation-iteration-count: infinite;
