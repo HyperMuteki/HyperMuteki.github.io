@@ -815,8 +815,8 @@ background:rgb(255,11,0,0.3);
 /* circle1 */
 .pulse7 {
 position: absolute;
-width: 45px;
-height: 45px;
+width: 65px;
+height: 65px;
 left: 40px;
 top: 150px; 
 border: 20px solid rgb(127,255,212); 
@@ -835,8 +835,8 @@ box-shadow: 1px 1px 30px solid rgb(255,105,180,0.3); /* shadow */
 /* circle2 */
 .pulse71 {
 position: absolute;
-width: 45px;
-height: 45px;
+width: 65px;
+height: 65px;
 left: 40px;
 top: 150px;
 border: 1px solid rgb(255,0,0,0.5);
